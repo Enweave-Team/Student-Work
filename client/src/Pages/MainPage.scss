@@ -1,0 +1,23 @@
+.wrapper-main {
+  width: 90%;
+  margin: 0 auto;
+
+  .main-text {
+    padding: 4.6875rem 0 5rem 0;
+
+    h1 {
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 88px;
+    }
+
+    p {
+      margin-bottom: 2.25rem;
+    }
+  }
+
+  .price-calculating {
+    display: flex;
+    justify-content: space-between;
+  }
+}
