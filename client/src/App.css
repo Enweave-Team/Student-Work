@@ -1,0 +1,57 @@
+/*// Указываем box sizing*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*// Убираем внутренние отступы*/
+ul[class],
+ol[class] {
+    margin: 0;
+    padding: 0;
+}
+
+/*// Убираем внешние отступы*/
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    padding: 0;
+    margin: 0;
+}
+
+/*//Выставляем основные настройки по-умолчанию для body*/
+body {
+    min-width: 100vh;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    background: var(--purple);
+    font-family: var(--font-sans);
+}
+
+:root {
+    --font-sans: 'Open Sans', sans-serif;
+    --font-jost: 'Jost', sans-serif;
+
+    --white: #F3F3F3;
+    --black: #181818;
+    --grey: #262626;
+    --purple: linear-gradient(321.6deg, #9795F0 3.29%, #FBC8D4 101.27%);
+    --light-grey: #E7E7E7;
+    --violet: #6B69E7;
+    --yellow: #FFB930;
+    --red: #F43E49;
+}
