@@ -2,7 +2,10 @@
 
 # dependencies
 /node_modules
+<<<<<<< HEAD
 /.idea
+=======
+>>>>>>> 16357f74044352440f19e9c6ae196e9a5b2abbce
 /.pnp
 .pnp.js
 

@@ -38,10 +38,14 @@ body {
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+<<<<<<< HEAD
     background-image: url("./assets/background.svg");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
+=======
+    background: var(--purple);
+>>>>>>> 16357f74044352440f19e9c6ae196e9a5b2abbce
     font-family: var(--font-sans);
 }
 

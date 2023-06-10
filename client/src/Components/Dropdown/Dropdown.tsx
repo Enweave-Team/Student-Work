@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, {useState} from 'react';
 import './Dropdown.scss';
 import {ReactComponent as VectorInput} from "../../assets/VectorSelect.svg";
@@ -38,6 +39,27 @@ const Dropdown = ({setSelected, selected, options, article}: Props) => {
                     ))}
                 </div>
             )}
+=======
+import React from 'react';
+import './Dropdown.scss';
+type Props = {
+    text: string | number;
+}
+const Dropdown = ({text}: Props) => {
+    return (
+        <div className='dropdown'>
+            <div className='dropdown-btn'>
+                {text}
+            </div>
+            <div className='dropdown-content'>
+                <div className='dropdown-item'>
+                    Математика
+                </div>
+                <div className='dropdown-item'>
+                    Фiзика
+                </div>
+            </div>
+>>>>>>> 16357f74044352440f19e9c6ae196e9a5b2abbce
         </div>
     );
 };
