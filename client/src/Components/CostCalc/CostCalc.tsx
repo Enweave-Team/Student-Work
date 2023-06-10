@@ -1,4 +1,3 @@
-
 import React, {useState} from 'react';
 import './CostCalc.scss';
 import Dropdown from "../Dropdown/Dropdown";
@@ -53,22 +52,6 @@ const CostCalc = () => {
                         onChange={event => setValue(event.target.value)}
                     />
                 </div>
-=======
-import React from 'react';
-import './CostCalc.scss';
-import Dropdown from "../Dropdown/Dropdown";
-
-const CostCalc = () => {
-    return (
-        <div className='wrapper-costCalc'>
-            <div>
-                <p>Дисципліна</p>
-                <Dropdown text='Виберіть предмет'/>
-            </div>
-            <div>
-                <p>Тип роботи</p>
-                <Dropdown text='Виберіть тип роботи'/>
->>>>>>> 16357f74044352440f19e9c6ae196e9a5b2abbce
             </div>
         </div>
     );
