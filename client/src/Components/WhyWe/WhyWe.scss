@@ -1,0 +1,15 @@
+.wrapper-why {
+  margin-top: 8.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .why-item {
+    margin-right: 12.5rem;
+    p {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 67px;
+    }
+  }
+}

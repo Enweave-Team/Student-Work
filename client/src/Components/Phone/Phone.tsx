@@ -11,6 +11,7 @@ const Phone: React.FC<PhoneProps> = ({label}) => {
             <span>{label}</span>
 
             <input
+                className='themeInput'
                 type="number"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
             />

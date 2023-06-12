@@ -1,0 +1,15 @@
+.OrderAdvance-wrapper {
+  margin-top: 9.37rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .order-items {
+    width: 650px;
+
+    .order-item-span p {
+      margin-bottom: 1.5rem;
+      color: #494949;;
+    }
+  }
+}

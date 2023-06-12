@@ -1,0 +1,27 @@
+.about-wrapper {
+  margin-top: 8.75rem;
+  display: flex;
+  flex-direction: row;
+
+  .about-item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .block {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .infoblock-item {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  .text-area {
+    overflow-wrap: break-word;
+    width: 50%;
+  }
+}

@@ -1,0 +1,15 @@
+.join-wrapper {
+  margin-top: 9.37rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .join-items {
+    width: 650px;
+
+    .join-item-span p {
+      margin-bottom: 1.5rem;
+      color: #494949;;
+    }
+  }
+}

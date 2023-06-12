@@ -1,0 +1,24 @@
+.cardItem-wrapper {
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  height: 340px;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .cardItem-photo {
+    height: 100px;
+    width: 100px  ;
+  }
+  .cardItem-name {
+    margin-top: 1.5rem;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .cardItem-review {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,20 @@
+.wrapper-block {
+  border: 2px solid #FFFFFF;
+  height: 11.87rem;
+  width: 19.4rem;
+  border-radius: 10px;
+
+  .block-item{
+    padding: 3rem 1.5rem 0 3rem;
+
+    p {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    span {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 67px;
+    }
+  }
+}

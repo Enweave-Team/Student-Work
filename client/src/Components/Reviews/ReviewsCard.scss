@@ -1,0 +1,9 @@
+.reviewsCard-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  .map-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}

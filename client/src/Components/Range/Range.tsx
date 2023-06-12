@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './Range.scss';
+
 interface RangeProps {
     _min: string | number,
     _max: string | number,

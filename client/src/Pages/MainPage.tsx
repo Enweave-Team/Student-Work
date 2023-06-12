@@ -3,6 +3,14 @@ import './MainPage.scss';
 import Navbar from "../Components/UI/Navbar";
 import Button from "../Components/Button/Button";
 import CostCalc from "../Components/CostCalc/CostCalc";
+import {offers} from './Offers';
+import OffersItem from "../Components/OffersItem/OffersItem";
+import AboutUs from "../Components/AboutUs/AboutUs";
+import WhyWe from "../Components/WhyWe/WhyWe";
+import ReviewsCard from "../Components/Reviews/ReviewsCard";
+import JoinOurTeam from "../Components/JoinInOurTeam/JoinOurTeam";
+import OrderAdvance from "../Components/OrderInAdvance/OrderAdvance";
+
 
 const MainPage = () => {
     return (
@@ -16,10 +24,22 @@ const MainPage = () => {
                 <Button text="Замовити роботу"/>
             </div>
             <div className='price-calculating'>
-                <h1>Розрахунок <br/>
-                    вартості</h1>
+                <span className='span-article'>Розрахунок <br/>
+                    вартості</span>
                 <CostCalc/>
             </div>
+            <span className='span-article'>Наші послуги</span>
+            <div className='offers'>
+                {offers.map((offer) => (
+                    <OffersItem id={offer.id} price={offer.price} time={offer.time} workName={offer.workName}/>
+                ))}
+            </div>
+            <Button text='Повний перелік робіт'/>
+            <AboutUs/>
+            <WhyWe/>
+            <ReviewsCard />
+            <JoinOurTeam/>
+            <OrderAdvance />
         </div>
     );
 };
