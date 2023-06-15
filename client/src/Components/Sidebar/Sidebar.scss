@@ -1,0 +1,21 @@
+.nav-menu {
+  width: 26.5%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 350ms;
+  background-color: var(--white);
+}
+
+.nav-menu.active {
+  left: 0;
+  animation: left-to-right 0.5s ease-in forwards;
+}
+
+.nav-menu.no-active {
+  animation: right-to-left 0.5s ease-in forwards;
+}

@@ -44,6 +44,12 @@ body {
     background-size: cover;
     font-family: var(--font-sans);
 }
+#overlay-root {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
 
 :root {
     --font-sans: 'Open Sans', sans-serif;
@@ -57,4 +63,8 @@ body {
     --violet: #6B69E7;
     --yellow: #FFB930;
     --red: #F43E49;
+}
+.navbar {
+    width: 90%;
+    margin: 0 auto;
 }

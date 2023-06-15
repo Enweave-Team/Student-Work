@@ -16,7 +16,6 @@ const ReviewsCard = () => {
                                  text={reviewer.text}/>
             ))}
             </div>
-            <WhiteButton text='Всі коментарі'/>
         </div>
     );
 };

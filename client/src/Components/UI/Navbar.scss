@@ -10,6 +10,11 @@
     display: flex;
     align-items: center;
     gap: 1.5rem;
+    .sidebar-button-item {
+      &:hover {
+        cursor: pointer;
+      }
+    }
     h1 {
       font-weight: 600;
       font-size: 16px;

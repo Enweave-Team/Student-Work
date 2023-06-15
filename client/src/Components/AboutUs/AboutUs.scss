@@ -3,24 +3,32 @@
   display: flex;
   flex-direction: row;
 
+
   .about-item {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
   }
+
   .block {
     margin-top: 2rem;
     display: flex;
     justify-content: flex-end;
   }
+
   .infoblock-item {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 1.8rem;
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 
   }
+
   .text-area {
+    max-width: 650px;
     overflow-wrap: break-word;
     width: 50%;
   }

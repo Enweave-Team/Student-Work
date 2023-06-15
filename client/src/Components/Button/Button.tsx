@@ -3,6 +3,7 @@ import './Button.scss';
 type Props = {
     text: string | number;
     onClick?: any;
+    onConfirm?: any;
 }
 const Button = ( { text, onClick }: Props) => {
     return (

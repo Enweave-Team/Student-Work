@@ -1,9 +1,13 @@
 .reviewsCard-wrapper {
+  margin-top: 8.75rem;
   display: flex;
   justify-content: space-between;
 
   .map-wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 650px;
+    gap: 1.8rem;
   }
 }
