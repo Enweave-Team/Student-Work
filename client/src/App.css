@@ -1,3 +1,85 @@
+@font-face {
+    font-family: 'CASlalomExtended';
+    src: url('assets/fonts/CASlalomExtended-Heavy.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: 'CASlalomExtended';
+    src: url('assets/fonts/CASlalomExtended-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CASlalomExtended';
+    src: url('assets/fonts/CASlalomExtended-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CASlalomExtended';
+    src: url('assets/fonts/CASlalomExtended-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CASlalomExtended';
+    src: url('assets/fonts/CASlalomExtended-HeavyItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CASlalomExtended';
+    src: url('assets/fonts/CASlalomExtended-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CASlalomExtended';
+    src: url('assets/fonts/CASlalomExtended-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CASlalomExtended';
+    src: url('assets/fonts/CASlalomExtended-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CASlalomExtended';
+    src: url('assets/fonts/CASlalomExtended-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CASlalomExtended';
+    src: url('assets/fonts/CASlalomExtended-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /*// Указываем box sizing*/
 *,
 *::before,
@@ -44,6 +126,7 @@ body {
     background-size: cover;
     font-family: var(--font-sans);
 }
+
 #overlay-root {
     display: flex;
     justify-content: center;
@@ -64,7 +147,9 @@ body {
     --yellow: #FFB930;
     --red: #F43E49;
 }
+
 .navbar {
     width: 90%;
     margin: 0 auto;
 }
+

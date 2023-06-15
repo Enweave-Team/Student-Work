@@ -1,0 +1,53 @@
+.work-process {
+  margin-top: 8.75rem;
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    width: 350px;
+  }
+  &-container {
+    width: 500px;
+    position: relative;
+    margin-right: 12rem;
+
+    svg {
+      margin: 0 auto;
+      display: block;
+    }
+
+    span {
+      max-width: 172px;
+      position: absolute;
+
+
+      &:nth-child(1) {
+        top: 25px;
+      }
+
+
+      &:nth-child(2) {
+        top: 95px;
+      }
+
+      &:nth-child(3) {
+        top: 180px;
+        padding-right: 7px;
+      }
+
+      &:nth-child(4) {
+
+        top: 260px;
+        text-align: right;
+      }
+
+      &:nth-child(odd) {
+        left: 15px;
+      }
+
+      &:nth-child(even) {
+        right: -10px;
+      }
+    }
+  }
+}

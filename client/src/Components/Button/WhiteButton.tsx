@@ -5,9 +5,9 @@ type Props = {
 }
 const WhiteButton: FC<Props>= ({text}) => {
     return (
-        <div className='white-button-style'>
-            <p>{text}</p>
-        </div>
+        <button className='white-button-style'>
+           <span>{text}</span>
+        </button>
     );
 };
 
