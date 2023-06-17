@@ -79,7 +79,6 @@
     font-display: swap;
 }
 
-
 /*// Указываем box sizing*/
 *,
 *::before,
@@ -141,6 +140,7 @@ body {
     --white: #F3F3F3;
     --black: #181818;
     --grey: #262626;
+    --dull-grey: #494949;
     --purple: linear-gradient(321.6deg, #9795F0 3.29%, #FBC8D4 101.27%);
     --light-grey: #E7E7E7;
     --violet: #6B69E7;

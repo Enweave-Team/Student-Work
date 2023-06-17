@@ -1,5 +1,6 @@
 import React from 'react';
 import './WhyWe.scss';
+
 const WhyWe = () => {
     return (
         <div className='wrapper-why'>

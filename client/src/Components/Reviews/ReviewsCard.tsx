@@ -17,7 +17,7 @@ const ReviewsCard = () => {
                                          text={reviewer.text}/>
                     ))}
                 </div>
-                <div className='button-block'>
+                <div className='button-wrapper'>
                     <WhiteButton text='Всі коментарі'/>
                 </div>
             </div>

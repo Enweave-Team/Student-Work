@@ -12,7 +12,7 @@ const Sidebar = () => {
     const SidebarItem = () => {
         return (
             <aside className={sidebar ? 'nav-menu active' : 'nav-menu no-active'}>
-                <p>sadsdsaDSA</p>
+                <a href="/aboutUs"></a>
                 <p>sadsdsaDSA</p>
                 <p>sadsdsaDSA</p>
                 <p>sadsdsaDSA</p>

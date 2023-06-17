@@ -4,21 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8599d7b0-eb37-4c17-9ff8-205b8fc884ba" name="Changes" comment="Setup project v0.3">
+    <list default="true" id="8599d7b0-eb37-4c17-9ff8-205b8fc884ba" name="Changes" comment="Setup project v0.6">
+      <change afterPath="$PROJECT_DIR$/client/src/Components/AboutUs/AboutUsComponent.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/AboutUs/AboutUs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/AboutUs/AboutUs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/AboutUs/AboutUs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/AboutUs/AboutUs.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/AboutUs/InfoBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/AboutUs/InfoBlock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/AboutUs/AboutUs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/AboutUs/AboutUs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/AboutUs/AboutUsComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/CostCalc/CostCalc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/CostCalc/CostCalc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/CostCalc/CostCalc.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/CostCalc/CostCalc.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Dropdown/Dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Dropdown/Dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Dropdown/Dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Dropdown/Dropdown.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Footer/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/JoinInOurTeam/JoinOurTeam.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/JoinInOurTeam/JoinOurTeam.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/JoinInOurTeam/JoinOurTeam.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/JoinInOurTeam/JoinOurTeam.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/OrderInAdvance/OrderAdvence.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/OrderInAdvance/OrderAdvence.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/Reviews/ReviewsCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Reviews/ReviewsCard.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/Reviews/ReviewsCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Reviews/ReviewsCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/UI/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/UI/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Reviews/ReviewsCardItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Reviews/ReviewsCardItem.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Reviews/ReviewsCardItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Reviews/ReviewsCardItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Sidebar/Sidebar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/UI/RegistrationForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/UI/RegistrationForm.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/UI/RegistrationForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/UI/RegistrationForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/WhyWe/WhyWe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/WhyWe/WhyWe.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/WhyWe/WhyWe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/WhyWe/WhyWe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/WorkProcess/WorkProcess.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/WorkProcess/WorkProcess.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/WorkProcess/WorkProcess.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/WorkProcess/WorkProcess.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/static/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/static/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Pages/AboutUs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/AboutUs.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
     </list>
     <list id="df3caf92-8b7e-4510-a36a-8a714c4c852f" name="Changes by staro" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +123,9 @@
       <workItem from="1686691238032" duration="478000" />
       <workItem from="1686756476920" duration="591000" />
       <workItem from="1686820624095" duration="14602000" />
+      <workItem from="1686844908737" duration="10238000" />
+      <workItem from="1687022479095" duration="1053000" />
+      <workItem from="1687026848252" duration="6708000" />
     </task>
     <task id="LOCAL-00001" summary="Setup project v0.1">
       <created>1686166900528</created>
@@ -139,16 +155,51 @@
       <option name="project" value="LOCAL" />
       <updated>1686598902474</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Setup project v0.4">
+      <created>1686862812686</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686862812686</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Setup project v0.5">
+      <created>1686863758229</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686863758229</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Setup project v0.6">
+      <created>1686870091422</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686870091422</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup project v0.1" />
     <MESSAGE value="Setup project v0.2" />
     <MESSAGE value="Setup project v0.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup project v0.3" />
+    <MESSAGE value="Setup project v0.4" />
+    <MESSAGE value="Setup project v0.5" />
+    <MESSAGE value="Setup project v0.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup project v0.6" />
   </component>
 </project>

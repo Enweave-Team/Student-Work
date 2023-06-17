@@ -4,13 +4,13 @@ import Button from "../Components/Button/Button";
 import CostCalc from "../Components/CostCalc/CostCalc";
 import {offers} from './Offers';
 import OffersItem from "../Components/OffersItem/OffersItem";
-import AboutUs from "../Components/AboutUs/AboutUs";
 import WhyWe from "../Components/WhyWe/WhyWe";
 import ReviewsCard from "../Components/Reviews/ReviewsCard";
 import JoinOurTeam from "../Components/JoinInOurTeam/JoinOurTeam";
 import OrderAdvance from "../Components/OrderInAdvance/OrderAdvance";
 import Footer from "../Components/Footer/Footer";
 import WorkProcess from "../Components/WorkProcess/WorkProcess";
+import AboutUsComponent from "../Components/AboutUs/AboutUsComponent";
 
 
 const MainPage = () => {
@@ -35,13 +35,13 @@ const MainPage = () => {
                 ))}
             </div>
             <Button text='Повний перелік робіт'/>
-            <AboutUs article='Про нас'/>
+            <AboutUsComponent article='Про нас'/>
             <WhyWe/>
-            <WorkProcess />
+            <WorkProcess/>
             <ReviewsCard/>
             <JoinOurTeam/>
             <OrderAdvance/>
-            <Footer />
+            <Footer/>
         </div>
     );
 };

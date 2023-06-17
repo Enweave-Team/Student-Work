@@ -40,7 +40,7 @@ const CostCalc = () => {
 
                 <div>
                     <p>Срок</p>
-                    <div className='date__container'>{formatDate(selectedDate, 'DDD DD MMM YYYY')}</div>
+                    <div className='date-container'>{formatDate(selectedDate, 'DDD DD MMM YYYY')}</div>
                     <Calendar selectedDate={selectedDate} selectDate={(date) => setSelectedDay(date)}/>
                 </div>
             </div>

@@ -1,18 +1,19 @@
 import React, {FC} from 'react';
-import './AboutUs.scss';
+import './AboutUsComponent.scss';
 import InfoBlock from "./InfoBlock";
 
 type Props = {
     article: string;
 }
-const AboutUs: FC<Props> = ({ article }) => {
+const AboutUsComponent: FC<Props> = ({article}) => {
     return (
         <div className='about-wrapper'>
             <div className='about-item'>
                 <span className='span-article'>{article}</span>
-                <div className='text-area'><p>Ми є провідним постачальником послуг з написання різних видів студентських
-                    робіт, таких як есе,
-                    реферати, курсові роботи, дипломні роботи та інші.</p>
+                <div className='text-item'>
+                    <p>Ми є провідним постачальником послуг з написання різних видів студентських
+                        робіт, таких як есе,
+                        реферати, курсові роботи, дипломні роботи та інші.</p>
 
                     <span className='span-br'>
                     Наша компанія пропонує послуги виключно професійних письменників, які мають великий досвід у
@@ -20,7 +21,7 @@ const AboutUs: FC<Props> = ({ article }) => {
                     студентських робіт. Крім того, ми гарантуємо повну конфіденційність і безпеку ваших персональних
                     даних
                     та інформації про замовлення.</span>
-                    <div className='infoblock-item'>
+                    <div className='info-block-item'>
                         <InfoBlock numberInfo='5' text='Років у галузі'/>
                         <InfoBlock numberInfo='3000+' text='Виконаних робіт'/>
                         <InfoBlock numberInfo='1000+' text='Постійних клієнтів'/>
@@ -31,4 +32,4 @@ const AboutUs: FC<Props> = ({ article }) => {
     );
 };
 
-export default AboutUs;
+export default AboutUsComponent;

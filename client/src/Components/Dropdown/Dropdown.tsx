@@ -15,7 +15,7 @@ const Dropdown = ({setSelected, selected, options, article}: Props) => {
 
 
     return (
-        <div className='dropdown'>
+        <div className='dropdown-wrapper'>
             <span>{article}</span>
             <div className={isActive ? 'overlap is-active' : 'overlap'} onClick={(e) => setIsActive(false)}></div>
             <div className='dropdown-btn' onClick={() => {

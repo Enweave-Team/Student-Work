@@ -1,13 +1,14 @@
-.work-process {
+.work-process-wrapper {
   margin-top: 8.75rem;
   display: flex;
   justify-content: space-between;
 
   span {
-    width: 350px;
+    width: 21.87rem;
   }
-  &-container {
-    width: 500px;
+
+  .work-process-container {
+    width: 31.25rem;
     position: relative;
     margin-right: 12rem;
 
@@ -17,36 +18,33 @@
     }
 
     span {
-      max-width: 172px;
+      max-width: 10.75rem;
       position: absolute;
 
-
       &:nth-child(1) {
-        top: 25px;
+        top: 1.56rem;
       }
 
-
       &:nth-child(2) {
-        top: 95px;
+        top: 5.93rem;
       }
 
       &:nth-child(3) {
-        top: 180px;
-        padding-right: 7px;
+        top: 11.25rem;
+        padding-right: 0.43rem;
       }
 
       &:nth-child(4) {
-
-        top: 260px;
+        top: 16.25rem;
         text-align: right;
       }
 
       &:nth-child(odd) {
-        left: 15px;
+        left: 0.93rem;
       }
 
       &:nth-child(even) {
-        right: -10px;
+        right: -0.62rem;
       }
     }
   }

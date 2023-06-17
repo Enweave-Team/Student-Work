@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import './ReviewsCardItem.scss';
-import { ReactComponent as Star} from "../../assets/star.svg";
+import {ReactComponent as Star} from "../../assets/star.svg";
 
 type Props = {
     id: number;
@@ -8,14 +8,14 @@ type Props = {
     text: string;
     userName: string;
 }
-const ReviewsCardItem: FC<Props> = ({images, text, id,userName}) => {
+const ReviewsCardItem: FC<Props> = ({images, text, id, userName}) => {
     console.log(images)
     return (
         <div key={id} className='cardItem-wrapper'>
-            <img className='cardItem-photo' src={images} alt="AS"/>
+            <img className='cardItem-photo' src={images} alt="cardItem-photo"/>
             <span className='cardItem-name'>{userName}</span>
             <span className='cardItem-review'>{text}</span>
-            <div className='star-item'><Star/><Star/><Star/><Star/><Star/></div>
+            <div className='cardItem-stars'><Star/><Star/><Star/><Star/><Star/></div>
         </div>
     );
 };

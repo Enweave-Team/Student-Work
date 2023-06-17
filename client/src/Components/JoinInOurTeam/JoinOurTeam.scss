@@ -4,12 +4,16 @@
   flex-direction: row;
   justify-content: space-between;
 
+  span {
+    width: 17.5rem;
+  }
+
   .join-items {
-    width: 650px;
+    width: 40.62rem;
 
     .join-item-span p {
       margin-bottom: 1.5rem;
-      color: #494949;;
+      color: var(--dull-grey);
     }
   }
 }

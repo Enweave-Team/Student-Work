@@ -3,6 +3,7 @@ import {ReactComponent as LogoFooter} from "../../assets/logoFooter.svg";
 import {ReactComponent as TelegramLogo} from "../../assets/telegram.svg";
 import {ReactComponent as InstagramLogo} from "../../assets/instagram.svg";
 import './Footer.scss';
+
 const Footer = () => {
     return (
         <div className='wrapper-footer'>
@@ -16,7 +17,7 @@ const Footer = () => {
             <span className='span-footer'>Student Helper</span>
             <p>example@gmail.com</p>
             <p>+(380)-97-711-1111</p>
-            <div className='copyright-div'>
+            <div className='copyright-block'>
                 <nav className='nav-footer'>
                     <p>Головна сторінка</p>
                     <p>Про нас</p>
