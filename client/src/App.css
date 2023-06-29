@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'CASlalomExtended';
     src: url('assets/fonts/CASlalomExtended-Heavy.woff2') format('woff2');
@@ -114,6 +115,8 @@ dd {
 
 /*//Выставляем основные настройки по-умолчанию для body*/
 body {
+    width: 90%;
+    margin: 0 auto;
     min-width: 100vh;
     min-height: 100vh;
     scroll-behavior: smooth;
@@ -146,10 +149,5 @@ body {
     --violet: #6B69E7;
     --yellow: #FFB930;
     --red: #F43E49;
-}
-
-.navbar {
-    width: 90%;
-    margin: 0 auto;
 }
 

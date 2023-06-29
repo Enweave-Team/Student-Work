@@ -1,4 +1,12 @@
 .wrapper-aboutUs {
-  width: 90%;
-  margin: 0 auto;
+  padding-top: 4.68rem;
+
+  .span-article-aboutUs,
+  .span-article-main {
+    font-family: "CASlalomExtended", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+    align-self: baseline;
+  }
 }

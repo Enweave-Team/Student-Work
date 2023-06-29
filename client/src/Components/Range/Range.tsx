@@ -18,17 +18,31 @@ const Range: React.FC<RangeProps> = ({
                                      }) => {
 
     const [range, setRange] = useState(_min);
-
+    let styled = {};
+    console.log(range == 0)
+    if (range == 0) {
+        styled = {
+            width: `${range}%`
+        }
+    } else {
+        styled = {
+            width: `${range}.25%`
+        }
+    }
     return (
         <div className="range-container">
             <span className="label">{label}</span>
-            <input
-                type="range"
-                min={_min}
-                max={_max}
-                step={_step}
-                value={range}
-                onChange={(e) => setRange(e.target.value)}/>
+            <div className="custom-range">
+                <input
+                    type="range"
+                    min={_min}
+                    max={_max}
+                    step={_step}
+                    value={range}
+                    onChange={(e) => setRange(e.target.value)}/>
+                <div className="active-area" style={styled}></div>
+
+            </div>
             <span className='symbol'>{range}{symbol}</span>
         </div>
     );

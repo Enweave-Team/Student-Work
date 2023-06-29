@@ -4,7 +4,7 @@ import './WhyWe.scss';
 const WhyWe = () => {
     return (
         <div className='wrapper-why'>
-            <span className='span-article'>Чому саме ми?</span>
+            <span className='span-article-main'>Чому саме ми?</span>
             <div className='why-item'>
                 <p>Професіоналізм</p>
                 <p>Якість</p>

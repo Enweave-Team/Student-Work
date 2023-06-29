@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './MainPage.scss';
 import Button from "../Components/Button/Button";
 import CostCalc from "../Components/CostCalc/CostCalc";
@@ -13,7 +13,18 @@ import WorkProcess from "../Components/WorkProcess/WorkProcess";
 import AboutUsComponent from "../Components/AboutUs/AboutUsComponent";
 
 
-const MainPage = () => {
+interface Page1Props {
+    onPageChange: (page: string) => void;
+}
+
+const MainPage = ({onPageChange}: Page1Props) => {
+
+    useEffect(() => {
+        // Вызовите обратный вызов onPageChange и передайте текущую страницу
+        onPageChange('Головна сторінка');
+    }, [onPageChange]);
+
+
     return (
         <div className='wrapper-main'>
             <div className='main-text'>
@@ -24,14 +35,15 @@ const MainPage = () => {
                 <Button text="Замовити роботу"/>
             </div>
             <div className='price-calculating'>
-                <span className='span-article'>Розрахунок <br/>
+                <span className='span-article-main'>Розрахунок <br/>
                     вартості</span>
                 <CostCalc/>
             </div>
-            <span className='span-article'>Наші послуги</span>
+            <span className='span-article-main'>Наші послуги</span>
             <div className='offers'>
-                {offers.map((offer) => (
-                    <OffersItem id={offer.id} price={offer.price} time={offer.time} workName={offer.workName}/>
+                {offers.map((offer, index) => (
+                    <OffersItem key={index + offer.id} id={offer.id} price={offer.price} time={offer.time}
+                                workName={offer.workName}/>
                 ))}
             </div>
             <Button text='Повний перелік робіт'/>
@@ -44,6 +56,7 @@ const MainPage = () => {
             <Footer/>
         </div>
     );
+
 };
 
 export default MainPage;

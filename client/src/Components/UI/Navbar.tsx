@@ -1,14 +1,18 @@
-import React, {useState} from 'react';
+import React, {FC, useState} from 'react';
 import './Navbar.scss';
 import Button from "../Button/Button";
-
-import {ReactComponent as Logo} from '../../assets/Frame 280.svg';
+import {ReactComponent as Logo} from '../../assets/logo.svg';
 import RegistrationForm from "./RegistrationForm";
 import Sidebar from "../Sidebar/Sidebar";
 
-const Navbar = () => {
+interface NavbarProps {
+    currentPage: string;
+}
+
+const Navbar = ({currentPage}: NavbarProps) => {
 
     const [modalActive, setModalActive] = useState(false)
+
 
     const handlerModal = () => {
         setModalActive(true)
@@ -22,15 +26,10 @@ const Navbar = () => {
             {modalActive && <RegistrationForm onConfirm={changeHandler}/>}
             <div className='wrapper-navbar'>
                 <div className='sidebar-button'>
-                    <Sidebar />
-                    <h1>Головна сторінка</h1>
+                    <Sidebar/>
+                    <span>{currentPage}</span>
                 </div>
-                <div className='logo'>
-                    <Logo/>
-                    <h1>Student Help <br/>
-                        <span><p>Допомога студентам</p></span>
-                    </h1>
-                </div>
+                <Logo className='logo-navbar'/>
                 <Button onClick={handlerModal} text="Зареєструватися"/>
             </div>
         </>

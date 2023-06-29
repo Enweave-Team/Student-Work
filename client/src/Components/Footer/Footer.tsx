@@ -10,8 +10,8 @@ const Footer = () => {
             <div className='footer-item'>
                 <LogoFooter/>
                 <div className='footer-icon'>
-                    <div className='logo-circle'><TelegramLogo className='logo'/></div>
-                    <div className='logo-circle'><InstagramLogo className='logo'/></div>
+                    <div className='logo-circle'><TelegramLogo className='logo-footer'/></div>
+                    <div className='logo-circle'><InstagramLogo className='logo-footer'/></div>
                 </div>
             </div>
             <span className='span-footer'>Student Helper</span>

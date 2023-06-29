@@ -1,5 +1,5 @@
 .themeInput {
-  padding: 10px;
+  padding: 10px 10px 10px 0px;
   width: 100%;
   background-color: transparent;
   border: none;
@@ -8,4 +8,18 @@
   align-items: center;
   justify-content: space-between;
   outline: none;
+}
+
+.phone-container {
+  display: flex;
+  column-gap: 20px;
+
+  .phone-dropdown {
+width: 8%;
+    border-bottom: 1px solid var(--white);
+  }
+
+  .phone-field {
+    width: 95%;
+  }
 }

@@ -3,21 +3,23 @@ import './CostCalc.scss';
 import Dropdown from "../Dropdown/Dropdown";
 import Phone from "../Phone/Phone";
 import {Calendar} from "../Calendar";
-import {formatDate} from "../../utils/helpers/date";
+
 import CustomInput from "../CustomInput/CustomInput";
+import Range from "../Range/Range";
+import File from "../File/File";
+import OrderResult from "../OrderResult/OrderResult";
+
 
 
 const CostCalc = () => {
     const [selected, setSelected] = useState("Выберите предмет")
     const [selectedWork, setSelectedWork] = useState('Выберите тип работы')
-    const [selectedAmount, setSelectedAmount] = useState('Выберите количество страниц')
     const [valueEmail, setValueEmail] = useState('')
     const [valueWork, setValueWork] = useState('')
 
-    const [selectedDate, setSelectedDay] = React.useState(new Date());
     const workOption = ['Диплом', 'Курсовая работа', 'Реферат', 'Научная работа']
     const options = ['Математика', 'Физика', 'История', 'Философия']
-    const amountPages = [1, 2, 5, 8, 15, 25, 35, 50]
+
 
     const handlerChangeEmail = (event: React.ChangeEvent<HTMLInputElement>) => {
         setValueEmail(event.target.value)
@@ -26,7 +28,6 @@ const CostCalc = () => {
     const handlerChangeWork = (event: React.ChangeEvent<HTMLInputElement>) => {
         setValueWork(event.target.value)
     }
-
     return (
         <div className='wrapper-costCalc'>
             <div className='work-article'>
@@ -35,19 +36,25 @@ const CostCalc = () => {
                           setSelected={setSelectedWork}/>
             </div>
             <div className='date-pages'>
-                <Dropdown article='Кількість сторінок' options={amountPages} selected={selectedAmount}
-                          setSelected={setSelectedAmount}/>
-
-                <div>
-                    <p>Срок</p>
-                    <div className='date-container'>{formatDate(selectedDate, 'DDD DD MMM YYYY')}</div>
-                    <Calendar selectedDate={selectedDate} selectDate={(date) => setSelectedDay(date)}/>
+                <div className="date-field">
+                    <Calendar label={'Срок'}/>
                 </div>
+                <CustomInput article='E-mail' type='text' value={valueEmail} change={handlerChangeEmail}/>
+
             </div>
             <CustomInput article='Тема роботи' type='text' value={valueWork} change={handlerChangeWork}/>
-            <div className='email-phone'>
-                <Phone label='Телефон'/>
-                <CustomInput article='E-mail' type='text' value={valueEmail} change={handlerChangeEmail}/>
+            <div className='phone'>
+                <Phone label='Номер телефону'/>
+            </div>
+            <div className="additional">
+                <Range _min={0} _max={100} _step={1} label={'Оригінальність роботи'} symbol={'%'}/>
+                <Range _min={0} _max={100} _step={1} label={'Кількість сторінок'} symbol={' стр'}/>
+            </div>
+            <div className="file-field">
+                <File/>
+            </div>
+            <div>
+                <OrderResult label={"Вартість роботи"}/>
             </div>
         </div>
     );

@@ -4,7 +4,7 @@ interface InputProps {
     type: string;
     value: string | number;
     change: any;
-    article: string;
+    article?: string;
     placeholder?: string;
 }
 

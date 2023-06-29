@@ -9,7 +9,7 @@ const AboutUsComponent: FC<Props> = ({article}) => {
     return (
         <div className='about-wrapper'>
             <div className='about-item'>
-                <span className='span-article'>{article}</span>
+                <span className='span-article-main'>{article}</span>
                 <div className='text-item'>
                     <p>Ми є провідним постачальником послуг з написання різних видів студентських
                         робіт, таких як есе,

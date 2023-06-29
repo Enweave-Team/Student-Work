@@ -1,5 +1,6 @@
 import React from 'react';
 import './Phone.scss';
+
 interface PhoneProps {
     label?: string
 }
@@ -7,16 +8,27 @@ interface PhoneProps {
 const Phone: React.FC<PhoneProps> = ({label}) => {
 
     return (
-        <div className="phone-container">
+        <>
             <span>{label}</span>
+            <div className="phone-container">
 
-            <input
-                className='themeInput'
-                type="number"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-            />
-        </div>
-    );
+                <div className="phone-dropdown">
+                    <div className="phone-list">
+
+                    </div>
+                </div>
+                <div className="phone-field">
+
+                    <input
+                        className='themeInput'
+                        type="number"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+                </div>
+
+            </div>
+        </>
+)
+    ;
 };
 
 export default Phone;

@@ -1,13 +1,13 @@
 .wrapper-main {
-  width: 90%;
-  margin: 0 auto;
 
-  .span-article {
+  .span-article-main {
     font-family: "CASlalomExtended", sans-serif;
     font-weight: 700;
     font-size: 32px;
     line-height: 45px;
+    align-self: baseline;
   }
+
   .main-text {
     padding: 4.6875rem 0 5rem 0;
 
@@ -23,10 +23,12 @@
   }
 
   .price-calculating {
+    margin-bottom: 10.81rem;
     display: flex;
     justify-content: space-between;
   }
+
   .offers {
-   margin: 2rem 0 1.5rem 0;
+    margin: 2rem 0 1.5rem 0;
   }
 }

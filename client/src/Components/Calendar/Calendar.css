@@ -1,20 +1,26 @@
 .calendar {
-  width: 200px;
+  position: absolute;
+  display: none;
+  width: 100%;
   border-radius: 5px;
   text-transform: capitalize;
   background-color: var(--background-color-calendar);
+}
+.calendar.is-active{
+  display: block;
 }
 
 .calendar__header {
   position: relative;
   border-radius: 5px 5px 0 0;
-  background-color: var(--background-color-calendar-header);
-  color: var(--color-text);
+  background-color: #6B69E7;
+  color: #fff;
   padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 10px -1px rgba(0, 0, 0, 0.2);
+
 }
 
 .calendar__header__arrow__left {
@@ -36,24 +42,26 @@
 .calendar__body {
   border-radius: 0 0 5px 5px;
   padding: 5px;
+  background-color: rgba(107,105,231,0.99);
 }
 
 .calendar__week__names {
   height: 20px;
   font-weight: 600;
   font-size: 8px;
-  color: var(--color-additional);
+  color: #fff;
   text-align: center;
   align-items: center;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 1px 1px;
+
 }
 
 .calendar__days {
   font-size: 10px;
   font-weight: 400;
-  color: var(--color-text);
+  color: #fff;
   text-align: center;
   display: grid;
   text-align: center;
@@ -87,6 +95,7 @@
   align-items: center;
   cursor: pointer;
   border-radius: 5px;
+  color: white;
 }
 
 .calendar__pick__item:hover {
@@ -119,5 +128,5 @@
 .calendar__unchoosable__year {
   font-weight: 300;
   padding: 9px 16px;
-  color: var(--color-placeholder);
+  color: white;
 }

@@ -5,37 +5,30 @@
   justify-content: space-between;
   padding-top: 2.75rem;
 
-
+  .logo-navbar {
+    z-index: 2;
+  }
   .sidebar-button {
     display: flex;
     align-items: center;
     gap: 1.5rem;
+    span {
+      width: 9rem;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
     .sidebar-button-item {
       &:hover {
         cursor: pointer;
       }
     }
+
     h1 {
       font-weight: 600;
       font-size: 16px;
       line-height: 24px;
-    }
-  }
-
-  .logo {
-    align-items: center;
-    align-content: center;
-    display: flex;
-    flex-direction: row;
-    color: var(--grey);
-    h1 {
-      text-transform: uppercase;
-      line-height: 29px;
-      font-family: var(--font-jost);
-      span p{
-        font-size: 10.0089px;
-        line-height: 12px;
-      }
     }
   }
 }
