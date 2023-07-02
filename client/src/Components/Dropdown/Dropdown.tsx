@@ -8,14 +8,15 @@ interface Props {
     selected: string | number;
     setSelected: any;
     options: string[] | number[];
+    styles?: React.CSSProperties;
 }
 
-const Dropdown = ({setSelected, selected, options, article}: Props) => {
+const Dropdown = ({setSelected, selected, options, article, styles}: Props) => {
+
     const [isActive, setIsActive] = useState(false);
 
-
     return (
-        <div className='dropdown-wrapper'>
+        <div className='dropdown-wrapper' style={styles}>
             <span>{article}</span>
             <div className={isActive ? 'overlap is-active' : 'overlap'} onClick={(e) => setIsActive(false)}></div>
             <div className='dropdown-btn' onClick={() => {

@@ -14,7 +14,6 @@ const Phone: React.FC<PhoneProps> = ({label}) => {
 
                 <div className="phone-dropdown">
                     <div className="phone-list">
-
                     </div>
                 </div>
                 <div className="phone-field">

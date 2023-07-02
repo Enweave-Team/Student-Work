@@ -1,0 +1,16 @@
+.input-with-info-container {
+  position: relative;
+}
+
+.info-message {
+  position: absolute;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transform: translateY(10px);
+}
+
+.info-message.show {
+  opacity: 1;
+  transform: translateY(0);
+}

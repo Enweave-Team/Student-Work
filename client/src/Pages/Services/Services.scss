@@ -1,0 +1,32 @@
+.wrapper-services {
+  padding-top: 4.68rem;
+
+  .search-item {
+    margin: 5rem 0 8.9rem 0;
+    display: flex;
+    justify-content: space-between;
+
+    .input-item {
+      display: flex;
+      align-items: center;
+      width: 50%;
+
+      .find-input {
+        padding: 10px;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid var(--black);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        outline: none;
+      }
+
+      .find-loop-mark {
+        right: 1.2rem;
+        position: relative;
+      }
+    }
+  }
+}

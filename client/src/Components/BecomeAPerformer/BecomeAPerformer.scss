@@ -1,0 +1,21 @@
+.wrapper-become-performer {
+  margin-top: 8.75rem;
+  .span-br {
+    display: block;
+  }
+
+  .become-performer-item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    .info-block-item {
+      width: 50%;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 1.8rem;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}

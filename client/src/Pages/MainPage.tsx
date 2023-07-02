@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
 import './MainPage.scss';
 import Button from "../Components/Button/Button";
-import CostCalc from "../Components/CostCalc/CostCalc";
 import {offers} from './Offers';
 import OffersItem from "../Components/OffersItem/OffersItem";
 import WhyWe from "../Components/WhyWe/WhyWe";
@@ -11,44 +10,43 @@ import OrderAdvance from "../Components/OrderInAdvance/OrderAdvance";
 import Footer from "../Components/Footer/Footer";
 import WorkProcess from "../Components/WorkProcess/WorkProcess";
 import AboutUsComponent from "../Components/AboutUs/AboutUsComponent";
+import PriceCalculating from "../Components/PriceCalculating/PriceCalculating";
+import HeaderSample from "../Components/ArticleSample/HeaderSample";
+import {WhyWeData} from "../Components/WhyWe/WhyWeData";
 
 
-interface Page1Props {
+interface PageProps {
     onPageChange: (page: string) => void;
 }
 
-const MainPage = ({onPageChange}: Page1Props) => {
+const MainPage = ({onPageChange}: PageProps) => {
+
+    const hArticle = ['Студентські роботи на' + `${<span>замовлення</span>}`]
+
+    const pText = ['Виконуємо різні види студентських робіт, виконані професійними і досвічченими виконавцями.']
+
 
     useEffect(() => {
-        // Вызовите обратный вызов onPageChange и передайте текущую страницу
         onPageChange('Головна сторінка');
     }, [onPageChange]);
 
 
     return (
         <div className='wrapper-main'>
-            <div className='main-text'>
-                <h1>Студентські роботи на <br/>
-                    замовлення</h1>
-                <p>Виконуємо різні види студентських робіт, виконані
-                    професійними і досвічченими виконавцями.</p>
-                <Button text="Замовити роботу"/>
-            </div>
-            <div className='price-calculating'>
-                <span className='span-article-main'>Розрахунок <br/>
-                    вартості</span>
-                <CostCalc/>
-            </div>
-            <span className='span-article-main'>Наші послуги</span>
+            <HeaderSample text={pText} article={hArticle} buttonText='Замовити роботу'/>
+            <PriceCalculating/>
             <div className='offers'>
-                {offers.map((offer, index) => (
-                    <OffersItem key={index + offer.id} id={offer.id} price={offer.price} time={offer.time}
-                                workName={offer.workName}/>
-                ))}
+                <span className='span-sub-article'>Наші послуги</span>
+                <div className='offers-item'>
+                    {offers.map((offer, index) => (
+                        <OffersItem key={index + offer.id} id={offer.id} price={offer.price} time={offer.time}
+                                    workName={offer.workName}/>
+                    ))}
+                </div>
             </div>
             <Button text='Повний перелік робіт'/>
             <AboutUsComponent article='Про нас'/>
-            <WhyWe/>
+            <WhyWe data={WhyWeData}/>
             <WorkProcess/>
             <ReviewsCard/>
             <JoinOurTeam/>

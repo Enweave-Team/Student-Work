@@ -1,16 +1,24 @@
 import React from 'react';
 import './WhyWe.scss';
 
-const WhyWe = () => {
+interface DataItem {
+    text: string;
+}
+
+interface DataListProps {
+    data: DataItem[];
+}
+const WhyWe = ({data}: DataListProps) => {
     return (
         <div className='wrapper-why'>
-            <span className='span-article-main'>Чому саме ми?</span>
-            <div className='why-item'>
-                <p>Професіоналізм</p>
-                <p>Якість</p>
-                <p>Конфіденційність</p>
-                <p>Надійність</p>
-            </div>
+            <span className='span-sub-article'>Чому саме ми?</span>
+            <ul className='why-item'>
+                {data.map((text, index) => (
+                    <li key={index}>
+                        <p>{text.text}</p>
+                    </li>
+                ))}
+            </ul>
         </div>
     );
 };

@@ -4,10 +4,8 @@ import {ReactComponent as SidebarBtn} from "../../assets/Vector.svg";
 import './Sidebar.scss'
 import {ReactComponent as CloseMark} from "../../assets/CloseMark.svg";
 import {ReactComponent as FindLoop} from "../../assets/LoopMark.svg";
-import {ReactComponent as Logo} from '../../assets/logo.svg';
 import {ReactComponent as TelegramLogo} from "../../assets/telegram.svg";
 import {ReactComponent as InstagramLogo} from "../../assets/instagram.svg";
-import Button from "../Button/Button";
 import {SidebarData} from "./SidebarData";
 import {Link} from "react-router-dom";
 
@@ -29,8 +27,6 @@ const Sidebar = () => {
                             <CloseMark/>
                             <span>Закрити</span>
                         </div>
-                        {/*<Logo className='sidebar-logo'/>*/}
-                        {/*<Button text='Зареєструватися'/>*/}
                     </div>
                     <div className='input-item'>
                         <input type="text"
@@ -42,8 +38,8 @@ const Sidebar = () => {
                     <nav className='nav-sidebar'>
                         {SidebarData.map((item, index) => {
                             return (
-                                <ul className='sidebar-list'>
-                                    <li onClick={showSidebar} key={index}>
+                                <ul key={index} className='sidebar-list'>
+                                    <li onClick={showSidebar} >
                                         <Link className='sidebar-list-item' to={item.path}>
                                             {item.title}
                                         </Link>

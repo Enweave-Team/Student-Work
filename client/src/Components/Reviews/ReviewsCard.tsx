@@ -8,7 +8,7 @@ import WhiteButton from "../Button/WhiteButton";
 const ReviewsCard = () => {
     return (
         <div className='reviewsCard-wrapper'>
-            <span className='span-article-main'>Відгуки наших <br/>
+            <span className='span-sub-article'>Відгуки наших <br/>
                 клієнтів</span>
             <div>
                 <div className='map-wrapper'>

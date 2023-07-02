@@ -1,27 +1,5 @@
 .wrapper-main {
 
-  .span-article-main {
-    font-family: "CASlalomExtended", sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 45px;
-    align-self: baseline;
-  }
-
-  .main-text {
-    padding: 4.6875rem 0 5rem 0;
-
-    h1 {
-      font-weight: 700;
-      font-size: 64px;
-      line-height: 88px;
-    }
-
-    p {
-      margin-bottom: 2.25rem;
-    }
-  }
-
   .price-calculating {
     margin-bottom: 10.81rem;
     display: flex;
@@ -29,6 +7,10 @@
   }
 
   .offers {
-    margin: 2rem 0 1.5rem 0;
+    margin-top: 10.81rem;
+
+    .offers-item {
+      margin: 2rem 0 1.5rem 0;
+    }
   }
 }

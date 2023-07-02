@@ -10,7 +10,6 @@ import File from "../File/File";
 import OrderResult from "../OrderResult/OrderResult";
 
 
-
 const CostCalc = () => {
     const [selected, setSelected] = useState("Выберите предмет")
     const [selectedWork, setSelectedWork] = useState('Выберите тип работы')
@@ -20,6 +19,9 @@ const CostCalc = () => {
     const workOption = ['Диплом', 'Курсовая работа', 'Реферат', 'Научная работа']
     const options = ['Математика', 'Физика', 'История', 'Философия']
 
+    const dropdownStyles: React.CSSProperties = {
+        width: "290px",
+    }
 
     const handlerChangeEmail = (event: React.ChangeEvent<HTMLInputElement>) => {
         setValueEmail(event.target.value)
@@ -31,8 +33,8 @@ const CostCalc = () => {
     return (
         <div className='wrapper-costCalc'>
             <div className='work-article'>
-                <Dropdown article='Дисципліна' options={options} selected={selected} setSelected={setSelected}/>
-                <Dropdown article='Тип роботи' options={workOption} selected={selectedWork}
+                <Dropdown styles={dropdownStyles} article='Дисципліна' options={options} selected={selected} setSelected={setSelected}/>
+                <Dropdown styles={dropdownStyles} article='Тип роботи' options={workOption} selected={selectedWork}
                           setSelected={setSelectedWork}/>
             </div>
             <div className='date-pages'>

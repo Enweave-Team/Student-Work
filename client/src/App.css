@@ -151,3 +151,17 @@ body {
     --red: #F43E49;
 }
 
+.span-article {
+    font-size: 64px;
+    font-family: "CASlalomExtended", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+}
+.span-sub-article {
+    font-size: 32px;
+    font-family: "CASlalomExtended", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

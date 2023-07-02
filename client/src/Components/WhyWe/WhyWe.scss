@@ -3,12 +3,18 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: var(--black);
+
 
   .why-item {
-    font-family: "CASlalomExtended", sans-serif;
     letter-spacing: 2.6px;
     width: 30rem;
     margin-right: 10rem;
+
+    li {
+      font-family: "CASlalomExtended", sans-serif;
+      list-style: none;
+    }
 
     p {
       font-weight: 700;

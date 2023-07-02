@@ -1,0 +1,22 @@
+.wrapper-performer-form {
+  margin-top: 8.75rem;
+  display: flex;
+  justify-content: space-between;
+
+  .performer-form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    p {
+      color: var(--dull-grey);
+      font-size: 18px;
+    }
+    .button-performer {
+      width: 11rem;
+    }
+  }
+
+  .span-br {
+    display: block;
+  }
+}

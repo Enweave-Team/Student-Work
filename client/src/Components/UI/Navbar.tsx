@@ -1,4 +1,4 @@
-import React, {FC, useState} from 'react';
+import React, {useState} from 'react';
 import './Navbar.scss';
 import Button from "../Button/Button";
 import {ReactComponent as Logo} from '../../assets/logo.svg';

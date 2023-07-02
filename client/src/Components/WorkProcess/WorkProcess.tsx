@@ -5,7 +5,7 @@ import "./WorkProcess.scss";
 const WorkProcess = () => {
     return (
         <div className="work-process-wrapper">
-            <span className='span-article-main'>Процес виконання
+            <span className='span-sub-article'>Процес виконання
                 замовлення</span>
             <div className="work-process-container">
                 <Process/>

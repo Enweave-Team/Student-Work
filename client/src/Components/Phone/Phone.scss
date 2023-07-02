@@ -15,8 +15,13 @@
   column-gap: 20px;
 
   .phone-dropdown {
-width: 8%;
+    width: 8%;
     border-bottom: 1px solid var(--white);
+
+    .phone-list {
+      align-items: center;
+      text-align: center;
+    }
   }
 
   .phone-field {

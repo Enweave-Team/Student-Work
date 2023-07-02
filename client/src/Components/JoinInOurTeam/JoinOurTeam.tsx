@@ -5,7 +5,7 @@ import WhiteButton from "../Button/WhiteButton";
 const JoinOurTeam = () => {
     return (
         <div className='join-wrapper'>
-           <span className='span-article-main'>Приєднуйся до
+           <span className='span-sub-article'>Приєднуйся до
                 команди!</span>
             <div className='join-items'>
                 <span className='join-item-span'>

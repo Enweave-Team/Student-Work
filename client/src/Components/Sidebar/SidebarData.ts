@@ -9,7 +9,7 @@ export const SidebarData = [
     },
     {
         title: 'Послуги',
-        path: '/'
+        path: '/services'
     },
     {
         title: 'Відгуки',
@@ -18,5 +18,9 @@ export const SidebarData = [
     {
         title: 'Профіль',
         path: '/'
+    },
+    {
+        title: 'Стати виконавцем',
+        path: '/performer'
     },
 ]
