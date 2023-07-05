@@ -13,7 +13,7 @@ const OffersItem: FC<Props> = ({id, price, time, workName}) => {
         <div className='offers-wrapper' key={id}>
             <div className='offers-items'>
                 <div className='name-price'>
-                    <div><span className='work-span'>{workName}</span></div>
+                    <div className='work-name-div'><span className='work-span'>{workName}</span></div>
                     <div className='price-div'>вiд {price} грн</div>
                 </div>
                 <div className='time-arrow'>

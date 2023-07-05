@@ -18,6 +18,11 @@
       justify-content: space-between;
       min-width: 26.85rem;
 
+      .work-name-div {
+        width: 30rem;
+
+      }
+
       .work-span {
         font-weight: 700;
         font-size: 24px;
@@ -25,7 +30,11 @@
       }
 
       .price-div {
-        min-width: 6rem;
+        min-width: 7rem;
+
+        @media screen and (max-width: 1201px) {
+          min-width: 18rem;
+        }
       }
     }
 
@@ -33,6 +42,10 @@
       display: flex;
       justify-content: space-between;
       min-width: 39rem;
+
+      @media screen and (max-width: 1201px) {
+        min-width: 30rem;
+      }
     }
 
     .time-span {
@@ -50,7 +63,12 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
+
+        @media screen and (max-width: 1201px) {
+          left: -30px;
+        }
       }
     }
   }
 }
+

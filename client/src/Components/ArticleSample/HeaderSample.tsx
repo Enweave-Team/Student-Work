@@ -6,12 +6,12 @@ import './HeaderSample.scss';
 type Props = {
     text: string[];
     buttonText: string;
-    article: string[];
+    article: string[] | string;
 }
 const HeaderSample = ({text, buttonText, article}:Props) => {
     return (
         <div className='main-text'>
-            <span className='span-article'>{article}</span>
+            <div className='main-article-wrapper'><span className='span-article'>{article}</span></div>
             <p>{text}</p>
             <Button text={buttonText}/>
         </div>

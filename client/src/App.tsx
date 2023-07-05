@@ -16,7 +16,7 @@ function App() {
     };
     return (
         <div className="App">
-                <Navbar currentPage={currentPage}/>
+            <Navbar currentPage={currentPage}/>
             <div className="routes">
                 <Routes>
                     <Route path="/" element={<MainPage onPageChange={handlePageChange}/>}/>

@@ -1,6 +1,7 @@
 import React from 'react';
 import './JoinOurTeam.scss';
 import WhiteButton from "../Button/WhiteButton";
+import {Link} from "react-router-dom";
 
 const JoinOurTeam = () => {
     return (
@@ -13,7 +14,7 @@ const JoinOurTeam = () => {
                     Заповніть
                     форму виконавців і назавжди попрощайтеся з однотипною роботою за графіком 5/2!</p>
                     </span>
-                <WhiteButton text='Стати виконавцем'/>
+                <Link to='/performer'><WhiteButton text='Стати виконавцем'/></Link>
             </div>
         </div>
     );

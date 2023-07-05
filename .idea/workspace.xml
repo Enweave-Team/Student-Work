@@ -4,30 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8599d7b0-eb37-4c17-9ff8-205b8fc884ba" name="Changes" comment="Second page update">
+    <list default="true" id="8599d7b0-eb37-4c17-9ff8-205b8fc884ba" name="Changes" comment="Third page update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/AboutUs/AboutUsComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/AboutUs/AboutUsComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/CostCalc/CostCalc.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/CostCalc/CostCalc.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Dropdown/Dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Dropdown/Dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Dropdown/Dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Dropdown/Dropdown.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/AboutUs/AboutUsComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/AboutUs/AboutUsComponent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/AboutUs/InfoBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/AboutUs/InfoBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/ArticleSample/HeaderSample.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/ArticleSample/HeaderSample.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/ArticleSample/HeaderSample.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/ArticleSample/HeaderSample.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/JoinInOurTeam/JoinOurTeam.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/JoinInOurTeam/JoinOurTeam.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/OffersItem/OffersItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/OffersItem/OffersItem.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/OrderInAdvance/OrderAdvance.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/OrderInAdvance/OrderAdvance.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Phone/Phone.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Phone/Phone.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Phone/Phone.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Phone/Phone.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Reviews/ReviewsCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Reviews/ReviewsCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Sidebar/SidebarData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Sidebar/SidebarData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/OffersItem/OffersItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/OffersItem/OffersItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/UI/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/UI/Navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/UI/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/UI/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/WhyWe/WhyWe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/WhyWe/WhyWe.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/WhyWe/WhyWe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/WhyWe/WhyWe.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/WorkProcess/WorkProcess.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/WorkProcess/WorkProcess.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Pages/AboutUs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/AboutUs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Pages/AboutUs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/AboutUs.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Pages/MainPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/MainPage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Pages/Perfomer/Performer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/Perfomer/Performer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Pages/Services/Services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/Services/Services.tsx" afterDir="false" />
     </list>
     <list id="df3caf92-8b7e-4510-a36a-8a714c4c852f" name="Changes by staro" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -136,6 +128,11 @@
       <workItem from="1688136798043" duration="6542000" />
       <workItem from="1688143758234" duration="10743000" />
       <workItem from="1688228761837" duration="7719000" />
+      <workItem from="1688257041808" duration="749000" />
+      <workItem from="1688297147345" duration="592000" />
+      <workItem from="1688397485462" duration="5827000" />
+      <workItem from="1688408274716" duration="3862000" />
+      <workItem from="1688416514134" duration="3008000" />
     </task>
     <task id="LOCAL-00001" summary="Setup project v0.1">
       <created>1686166900528</created>
@@ -200,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688068702055</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Third page update">
+      <option name="closed" value="true" />
+      <created>1688257091062</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688257091062</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +231,8 @@
     <MESSAGE value="Setup project v0.6" />
     <MESSAGE value="Refactor SCSS" />
     <MESSAGE value="Second page update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second page update" />
+    <MESSAGE value="Third page update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third page update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

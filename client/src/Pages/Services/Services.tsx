@@ -3,6 +3,8 @@ import './Services.scss';
 import {ReactComponent as FindLoop} from "../../assets/LoopMark.svg";
 import PriceCalculating from "../../Components/PriceCalculating/PriceCalculating";
 import Footer from "../../Components/Footer/Footer";
+import Pagination from "../../Components/Pagination/Pagination";
+import {PaginationData} from "../../Components/Pagination/PaginationData";
 
 interface PageProps {
     onPageChange: (page: string) => void;
@@ -27,7 +29,8 @@ const Services = ({onPageChange}: PageProps) => {
                     <FindLoop className='find-loop-mark'/>
                 </div>
             </div>
-            <PriceCalculating />
+            <Pagination data={PaginationData} itemsPerPage={10}/>
+            <PriceCalculating/>
             <Footer/>
         </div>
     );

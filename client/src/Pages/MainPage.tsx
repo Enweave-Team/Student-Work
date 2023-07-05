@@ -21,7 +21,7 @@ interface PageProps {
 
 const MainPage = ({onPageChange}: PageProps) => {
 
-    const hArticle = ['Студентські роботи на' + `${<span>замовлення</span>}`]
+    const hArticle = ['Студентські роботи на  замовлення']
 
     const pText = ['Виконуємо різні види студентських робіт, виконані професійними і досвічченими виконавцями.']
 

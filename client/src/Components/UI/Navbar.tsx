@@ -27,7 +27,7 @@ const Navbar = ({currentPage}: NavbarProps) => {
             <div className='wrapper-navbar'>
                 <div className='sidebar-button'>
                     <Sidebar/>
-                    <span>{currentPage}</span>
+                    <span className='span-current-page'>{currentPage}</span>
                 </div>
                 <Logo className='logo-navbar'/>
                 <Button onClick={handlerModal} text="Зареєструватися"/>
